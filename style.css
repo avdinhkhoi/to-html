@@ -7,7 +7,7 @@ body {
     max-width: 1440px;
     /* height: 800px; */
     margin: 0 auto;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 a {
     text-decoration: none;
@@ -30,6 +30,7 @@ a {
     color: #000;
     font-size: 28px;
     font-weight: 600;
+    font-family: 'Poppins', sans-serif;
 
 }
 .container .header .header__logo a span {
@@ -95,20 +96,20 @@ ul .menu__list a:hover {
 }
 .banner {
     padding-top: 80px;
-    max-width: 500px;
-    margin: 0 auto;
+    max-width: 600px;
+    margin: 0 auto 100px;
     text-align: center;
 }
 .banner .banner__heading {
     color: #333;
-    font-size: 40px;
+    font-size: 44px;
     line-height: 50px;
     font-weight: 700;
     margin-bottom: 35px;
 }
 .banner .banner__title {
     line-height: 30px;
-    font-weight: 500;
+    font-weight: 600;
     color: #333;
     margin-bottom: 35px;
 }
@@ -119,10 +120,10 @@ ul .menu__list a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: auto;
+    margin: 0 auto;
     background-color: #fafbff;
     border-radius: 999px;
-    box-shadow: -4px -8px 25px rgba(66, 86, 174, 0.2);
+    box-shadow: -4px -3px 25px rgba(66, 86, 174, 0.1);
     /* box-sizing: border-box; */
 }
 .banner .banner__box .box__form .form__input {
@@ -164,7 +165,7 @@ ul .menu__list a:hover {
     flex-direction: column;
     justify-content: space-evenly;
     border-radius: 25px;
-    box-shadow: -4px -10px 25px rgba(66, 86, 174, 0.4);
+    box-shadow: -4px -10px 25px rgba(66, 86, 174, 0.1);
 }
 .container .card .rate .icon {
     font-size: 35px;
